@@ -72,4 +72,4 @@ npm run test:e2e:scenario -- c2-uso-indevido-credencial
 npm run test:e2e:scenario -- c3-comprometimento-conta
 ```
 
-Cada execução gera um UUID próprio para os dados criados. Os testes usam HTTP para cadastro, login, projetos, membros, requisitos, propostas e credenciais; a limpeza final usa TypeORM no banco de teste. C1 é classificado como parcial porque a API não representa horários esperados de operação. C2 e C3 executam suas sequências funcionais; nenhum teste implementa detecção de incidente ou consulta registros de auditoria.
+Cada execução gera um UUID próprio para os dados criados. Os testes usam HTTP para cadastro, login, projetos, membros, requisitos, propostas e credenciais; a limpeza final usa TypeORM no banco de teste. nenhum teste implementa detecção de incidente ou consulta registros de auditoria.
